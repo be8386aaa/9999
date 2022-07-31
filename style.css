@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(250, 250, 244);
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.header {
+    background-color:antiquewhite ;
+    display: flex;
+    padding: 0.9rem;
+    width: 100%;
+    height: 3rem;
+
+}
+.head{
+    padding-top: 1rem;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+.lang   {
+    margin-left: 60rem;
+}
+.cost {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.fa-brands {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+.fa-solid {
+    margin-top: 0.7rem;
+}
+h3 {
+    display: flex;
+    font-weight: 0.01rem;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-menu{
+    display: flex;
+    list-style: none;
+
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a{
+    display: flex;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: black;
+}
+#main-menu ul.submenu{
+position: relative;
+background-color: antiquewhite;
+padding: 15px 0px;
+list-style: none;
+}
+#main-menu ul.submenu a{
+    padding: 2px 3px;
+    border-bottom: 1px solid cornsilk;
+
+}
+#main-menu ul.submenu li:last-child a{
+    border: none;
+
+}
+.buy{
+    width: fit-content;
+    background-color:antiquewhite;
+    padding: 2rem;
+    margin-left: 70rem;
+}
+.x{
+    margin-left: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    margin-left: 1rem;
+    padding-top: 0;
+}
+.giay{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.cost{
+    border: none;
+    border-bottom: 1px solid rgb(221, 217, 209);
+}
+.Subtotal{
+    font-size: 1.3rem;
+    font-weight: 1000rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.total{
+    margin-left: 5rem;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 1.3rem;
+    margin-left: 1.1rem;
+    padding: 7px 30px 7px 30px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 30px;
+}
